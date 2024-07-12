@@ -1,0 +1,308 @@
+<!-- Create a news letter website. The website will be 2 pages long as off now. Both the pages should have a logo. the homepage will have a banner styating that it is a newsletter website. Contact details needed in the footer. The gallery page should have at least 10 news snippets with image and content. 
+please submit by eod.
+Proper background is needed in the project for both the pages. 
+color schematic should be kept into account while making the project.
+placement of components should be kept into account as well. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="icon" type="image"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVuXbHRHRK45dGsmbaOLOLdnslGWnFZmHK8w&s">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    .content {
+        background: linear-gradient(#8dc6ff, #34495e);
+        background-repeat: no-repeat;
+    }
+
+    nav {
+        padding: 2.5vh;
+        background-color: #22313f;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav ul li a {
+        padding-top: 2vh;
+        text-decoration: none;
+        color: #e4f1fe;
+        font-family: sans-serif;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    header img {
+        position: relative;
+        top: -6vh;
+        right: -1vh;
+    }
+
+    .logo {
+        height: 5vh;
+        width: 5vw;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        margin-left: 10vw;
+        font-size: 9vh;
+        font-family: sans-serif;
+        background-color: rgba(228, 241, 254, 0.7);
+        width: 80vw;
+    }
+
+    .newsletter {
+        margin: 5vh;
+        border: 0.5vh black solid;
+        background-color: white;
+    }
+
+    .main {
+        text-align: right;
+        border-bottom: 0.7vh black solid;
+        margin: 4vh;
+    }
+
+    h4 {
+        font-size: 8vh;
+        font-family: sans-serif;
+    }
+
+    .section1_1 {
+        display: flex;
+        padding-left: 4vh;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        padding-right: 1.5vh;
+        border-right: 0.7 black solid;
+    }
+
+    .section1_img {
+        width: 22vw;
+        height: 35vh;
+        padding: 2vh;
+        padding-top: 6vh;
+    }
+
+    .news {
+        width: 45vw;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .subparts {
+        display: flex;
+
+    }
+
+    .section1 {
+        margin: 1vh;
+        border-right: 0.7vh black solid;
+    }
+
+    .small_img {
+        width: 17vw;
+        height: 20vh;
+        padding-top: 1vh;
+        padding-left: 2vh;
+    }
+
+    .more {
+        text-align: center;
+        font-size: 4vh;
+    }
+
+    .big_news {
+        font-size: 5vh;
+    }
+
+    .section2 {
+        padding-top: 5vh;
+    }
+
+    .side_news {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .smalltext {
+        text-align: justify;
+        margin-right: 1.5vh;
+    }
+    #black{
+        background-color: rgb(161, 159, 159);
+    }
+</style>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVuXbHRHRK45dGsmbaOLOLdnslGWnFZmHK8w&s"
+        alt="logo">
+</header>
+
+<body class="content">
+    <div class="heading">
+        <h3>Welcome to The Newsletter</h3>
+    </div>
+
+    <div class="newsletter">
+        <div class="main">
+            <h4>Newsletter</h4>
+            <h5>July 12,2024</h5>
+        </div>
+        <div class="subparts">
+            <div class="section1">
+                <div class="section1_1" id="black">
+                    <img class="section1_img"
+                        src="https://images.hindustantimes.com/img/2024/07/12/550x309/PALESTINIAN-ISRAEL-CONFLICT-1_1720789918575_1720789937735.jpg"
+                        alt="">
+                    <div class="news">
+                        <h5 class="big_news">Israel to extend compulsory military service for men to 36 months</h5>
+                        <p>The Israeli government's security cabinet has approved a plan to extend compulsory military
+                            service for men to 36 months from the current 32 months, Israel's Ynet news outlet reported
+                            on Friday.
+
+                            The Israeli government's security cabinet has approved a plan to extend compulsory military
+                            service for men to 36 months from the current 32 months, Israel's Ynet news outlet reported
+                            on Friday.(AFP)
+                            The Israeli government's security cabinet has approved a plan to extend compulsory military
+                            service for men to 36 months from the current 32 months, Israel's Ynet news outlet reported
+                            on Friday.(AFP)
+                            The 36-month rule will stay in force for the next eight years, Ynet reported, after a
+                            meeting of the security cabinet that took place late on Thursday.The measure is likely to be
+                            submitted to a vote in a meeting of the full cabinet on Sunday, it said.Israel's military
+                            commanders have said they need to boost manpower so they can sustain the war with the Hamas
+                            militant group in Gaza and a confrontation with the Lebanon-based Hezbollah militia.
+
+                            In a separate initiative, Israel is planning to send draft notices to thousands of
+                            ultra-Orthodox seminary students who were previously exempt from military service.</p>
+                    </div>
+                </div>
+                <div class="section1_1">
+                    <div class="news">
+                        <h5 class="big_news">Congress unleashed dark phase': PM Modi on Samvidhan Hatya Diwas</h5>
+                        <p>The 18-month long Emergency was proclaimed during the Congress government led by Indira
+                            Gandhi on June 25, 1975.Prime Minister Narendra Modi and Union home minister Amit Shah on
+                            Friday hit out at the Congress after the Centre announced that June 25 every year will be
+                            marked as ‘Samvidhan Hatya Diwas’ against the Emergency imposed by Indira Gandhi-led
+                            Congress government in 1975.
+
+                            “To observe 25th June as #SamvidhaanHatyaDiwas will serve as a reminder of what happens when
+                            the Constitution of India was trampled over. It is also a day to pay homage to each and
+                            every person who suffered due to the excesses of the Emergency, a Congress unleashed dark
+                            phase of Indian history,” PM Modi posted on social platform X.
+
+                            Prime Minister Narendra Modi and Union home minister Amit Shah
+                            Prime Minister Narendra Modi and Union home minister Amit Shah
+
+                            The Emergency row was reignited after the constitution of 18th Lok Sabha following the 2024
+                            Lok Sabha election results. Lok Sabha speaker Om Birla slammed Emergency in his first
+                            address after being elected to the office for a second term.</p>
+                    </div>
+                    <img class="section1_img"
+                        src="https://images.hindustantimes.com/img/2024/07/12/550x309/PM_Modi_and_Amit_Shah_1720783400960_1720783401128.jpg"
+                        alt="">
+                </div>
+                <div class="section1_1" id="black">
+                    <img class="section1_img"
+                        src="https://images.hindustantimes.com/img/2024/07/12/550x309/students-queue-santacruz-sunday-enter-centre-neet_8e21ee6e-25f1-11e9-a405-f80f48f5557a_1720792249313.jpg"
+                        alt="">
+                    <div class="news">
+                        <h5 class="big_news">JKBOSE 11th Results 2024: Delay in Class 11 board results causes distress
+                            among students, parents</h5>
+                        <p>The JKBOSE Class 11 results 2024 were to be declared within 40 days since the examinations
+                            concluded. The delay has caused distress among students.
+
+                            The results of Class 11 board examinations are yet to be announced in Jammu and Kashmir even
+                            after the passage of 48 to 72 days depending on the culmination of the exam in
+                            weather-dependent soft and hard zone areas.
+
+                            Delay in Class 11 results causes distress among students in Jammu and Kashmir. (Satish
+                            Bate/HT file/For representation)
+                            Delay in Class 11 results causes distress among students in Jammu and Kashmir. (Satish
+                            Bate/HT file/For representation)
+                            The delay in the announcement of results by the J & K Board of School Education (JKBOSE) has
+                            caused distress among students while attendance in the schools has gone down. Currently, the
+                            schools are closed for summer vacation for 10 days from July 8.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="more">
+                    <h5> <u> More News </u></h5>
+                </div>
+                <div class="side_news">
+                    <img class="small_img"
+                        src="https://images.hindustantimes.com/img/2024/07/12/550x309/The-surge-in-prices-has-been-led-by-vegetables-suc_1702119922916_1720787358980.jpg"
+                        alt="">
+                    <div class="smalltext"> Retail inflation rises to 5.08 per cent in June, says govt data... </div>
+                </div>
+                <div class="side_news">
+                    <img class="small_img"
+                        src="https://images.hindustantimes.com/img/2024/07/12/550x309/A-painting-by-Chetan-Advirkar--30--from-Mumbai--Th_1720792928963.jpg"
+                        alt="">
+                    <div class="smalltext"> Paint my love: See how weddings are captured live on canvas... </div>
+                </div>
+                <div class="side_news">
+                    <img class="small_img"
+                        src="https://images.hindustantimes.com/img/2024/07/12/550x309/Many-political-leaders-and-their-supporters-are-fa_1712088300493_1720792537484.jpg"
+                        alt="">
+                    <div class="smalltext"> Maharashtra MLC polls: All 9 BJP-NCP-Shiv Sena alliance candidates win...
+                    </div>
+                </div>
+                <div class="side_news">
+                    <img class="small_img"
+                        src="https://images.hindustantimes.com/img/2024/07/11/550x309/CRICKET-T20-ZIM-IND-1_1720714570677_1720714582547.jpg"
+                        alt="">
+                    <div class="smalltext"> Latest Cricket News, Live Updates Today July 11, 2024: India vs Zimbabwe,
+                        4th T20I: Fantasy 11 Prediction, teams, captain, vice-captain, toss and venue analysis...
+                    </div>
+                </div>
+                <div class="side_news">
+                    <img class="small_img"
+                        src="https://images.hindustantimes.com/img/2024/07/10/550x309/icse-10th-board-results_0d01b012-7542-11e9-b041-b8edd22396b2_1720587525315.jpg"
+                        alt="">
+                    <div class="smalltext"> Karnataka SSLC Supply Result 2024: KSEAB 10th exam 2 marks out at
+                        karresults.nic.in, direct link here...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<footer>
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="mailto:arshiya1542.be23@chitkara.edu.in">Contact Us</a></li>
+            
+        </ul>
+    </nav>
+</footer>
+
+</html>
